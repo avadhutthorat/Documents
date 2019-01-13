@@ -1,0 +1,317 @@
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>e:
+
+E:\>ls
+'$RECYCLE.BIN'   BurgerBuilder   Mosh  'System Volume Information'   forms-03-finished   hello   practise   project
+
+E:\>cd hello
+
+E:\hello>ls
+README.md  node_modules  package-lock.json  package.json  public  src
+
+E:\hello>clear
+
+
+E:\hello>ls
+README.md  node_modules  package-lock.json  package.json  public  src
+
+E:\hello>git init
+Reinitialized existing Git repository in E:/hello/.git/
+
+E:\hello>git add .
+
+E:\hello>git commit -m 'initial commit'
+error: pathspec 'commit'' did not match any file(s) known to git
+
+E:\hello>git commit -m "first"
+On branch master
+nothing to commit, working tree clean
+
+E:\hello>git remote add origin https://github.com/avadhutthorat/hello.git
+
+E:\hello>git push origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 142.53 KiB | 1.64 MiB/s, done.
+Total 18 (delta 0), reused 0 (delta 0)
+To https://github.com/avadhutthorat/hello.git
+ * [new branch]      master -> master
+
+E:\hello>npm install --save gh-pages
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gh-pages@2.0.1
+added 16 packages from 4 contributors and audited 35800 packages in 81.517s
+found 0 vulnerabilities
+
+
+E:\hello>npm run deploy
+
+> hello@0.1.0 predeploy E:\hello
+> npm run build
+
+
+> hello@0.1.0 build E:\hello
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  34.71 KB  build\static\js\1.fa92c112.chunk.js
+  777 B     build\static\js\runtime~main.640c48d6.js
+  712 B     build\static\js\main.22982b0a.chunk.js
+  509 B     build\static\css\main.aa8db1e3.chunk.css
+
+The project was built assuming it is hosted at /avadhutthorat/hello/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  http://bit.ly/CRA-deploy
+
+
+> hello@0.1.0 deploy E:\hello
+> gh-pages -d build
+
+Published
+
+E:\hello>npm run deploy
+
+> hello@0.1.0 predeploy E:\hello
+> npm run build
+
+
+> hello@0.1.0 build E:\hello
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  34.71 KB       build\static\js\1.fa92c112.chunk.js
+  767 B (-10 B)  build\static\js\runtime~main.c9c085a1.js
+  712 B          build\static\js\main.a92f547a.chunk.js
+  509 B          build\static\css\main.aa8db1e3.chunk.css
+
+The project was built assuming it is hosted at /hello/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+To publish it at https://avadhutthorat.github.io/hello/, run:
+
+  npm run deploy
+
+Find out more about deployment here:
+
+  http://bit.ly/CRA-deploy
+
+
+> hello@0.1.0 deploy E:\hello
+> gh-pages -d build
+
+Published
+
+E:\hello>
+
+E:\hello>cd ..
+
+E:\>cd BurgerBuilder
+
+E:\BurgerBuilder>ls
+burger-builder
+
+E:\BurgerBuilder>cd burger-builder
+
+E:\BurgerBuilder\burger-builder>ls
+README.md  node_modules  package-lock.json  package.json  public  src
+
+E:\BurgerBuilder\burger-builder>git init
+Reinitialized existing Git repository in E:/BurgerBuilder/burger-builder/.git/
+
+E:\BurgerBuilder\burger-builder>git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.test.js.
+The file will have its original line endings in your working directory
+error: open("src/hoc/Aux.js"): No such file or directory
+error: unable to index file src/hoc/Aux.js
+fatal: adding files failed
+
+E:\BurgerBuilder\burger-builder>git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/serviceWorker.js.
+The file will have its original line endings in your working directory
+
+E:\BurgerBuilder\burger-builder>git commit -m 'initial'
+[master (root-commit) 3ca621d] 'initial'
+ 64 files changed, 17335 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/manifest.json
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/RawData/purchaseContinueHandler.txt
+ create mode 100644 src/Store/Action/actionTypes.js
+ create mode 100644 src/Store/Action/burgerBuilderActionCreator.js
+ create mode 100644 src/Store/Action/indexActionCreator.js
+ create mode 100644 src/Store/Action/orderActionCreator.js
+ create mode 100644 src/Store/Reducer/burgerBuilderReducer.js
+ create mode 100644 src/Store/Reducer/orderReducer.js
+ create mode 100644 src/assests/Images/burger-logo.png
+ create mode 100644 src/axios-orders.js
+ create mode 100644 src/components/Burger/BuildControls/BuildControl/BuildControl.js
+ create mode 100644 src/components/Burger/BuildControls/BuildControl/BuildControl.module.css
+ create mode 100644 src/components/Burger/BuildControls/BuildControls.js
+ create mode 100644 src/components/Burger/BuildControls/BuildControls.module.css
+ create mode 100644 src/components/Burger/Burger.js
+ create mode 100644 src/components/Burger/Burger.module.css
+ create mode 100644 src/components/Burger/BurgerIngredient/BurgerIngredient.js
+ create mode 100644 src/components/Burger/BurgerIngredient/BurgerIngredient.module.css
+ create mode 100644 src/components/Burger/OrderSummary/CheckoutButton.module.css
+ create mode 100644 src/components/Burger/OrderSummary/OrderSummary.js
+ create mode 100644 src/components/Logo/Logo.js
+ create mode 100644 src/components/Logo/Logo.module.css
+ create mode 100644 src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.js
+ create mode 100644 src/components/Navigation/NavigationItems/NavigationItem/NavigationItem.module.css
+ create mode 100644 src/components/Navigation/NavigationItems/NavigationItems.js
+ create mode 100644 src/components/Navigation/NavigationItems/NavigationItems.module.css
+ create mode 100644 src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.js
+ create mode 100644 src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.module.css
+ create mode 100644 src/components/Navigation/SideDrawer/SideDrawer.js
+ create mode 100644 src/components/Navigation/SideDrawer/SideDrawer.module.css
+ create mode 100644 src/components/Navigation/Toolbar/Toolbar.js
+ create mode 100644 src/components/Navigation/Toolbar/Toolbar.module.css
+ create mode 100644 src/components/Order/CheckoutSummary/CheckoutSummary.js
+ create mode 100644 src/components/Order/CheckoutSummary/CheckoutSummary.module.css
+ create mode 100644 src/components/Order/Order.js
+ create mode 100644 src/components/Order/Order.module.css
+ create mode 100644 src/components/UI/Backdrop/BackDrop.module.css
+ create mode 100644 src/components/UI/Backdrop/Backdrop.js
+ create mode 100644 src/components/UI/Input/Input.js
+ create mode 100644 src/components/UI/Input/Input.module.css
+ create mode 100644 src/components/UI/Modal/Modal.js
+ create mode 100644 src/components/UI/Modal/Modal.module.css
+ create mode 100644 src/components/UI/Spinner/Spinner.js
+ create mode 100644 src/components/UI/Spinner/Spinner.module.css
+ create mode 100644 src/containers/BurgerBuilder/BurgerBuilder.js
+ create mode 100644 src/containers/Checkout/Checkout.js
+ create mode 100644 src/containers/Checkout/ContactData/ContactData.js
+ create mode 100644 src/containers/Checkout/ContactData/ContactData.module.css
+ create mode 100644 src/containers/Orders/Orders.js
+ create mode 100644 src/hoc/Layout/Layout.js
+ create mode 100644 src/hoc/Layout/Layout.module.css
+ create mode 100644 src/hoc/_Aux.js
+ create mode 100644 src/hoc/withErrorHandler/withErrorHandler.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/serviceWorker.js
+
+E:\BurgerBuilder\burger-builder>git remote add origin https://github.com/avadhutthorat/burger.git
+fatal: remote origin already exists.
+
+E:\BurgerBuilder\burger-builder>git remote rm origin
+
+E:\BurgerBuilder\burger-builder>git remote add origin https://github.com/avadhutthorat/burger.git
+
+E:\BurgerBuilder\burger-builder>git push origin master
+Enumerating objects: 101, done.
+Counting objects: 100% (101/101), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (94/94), done.
+Writing objects: 100% (101/101), 173.11 KiB | 1.33 MiB/s, done.
+Total 101 (delta 0), reused 0 (delta 0)
+To https://github.com/avadhutthorat/burger.git
+ * [new branch]      master -> master
+
+E:\BurgerBuilder\burger-builder>npm install --save gh-pages
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gh-pages@2.0.1
+added 16 packages from 4 contributors and audited 35847 packages in 58.402s
+found 1 high severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\BurgerBuilder\burger-builder>npm run deploy
+
+> burger-builder@0.1.0 predeploy E:\BurgerBuilder\burger-builder
+> npm run build
+
+
+> burger-builder@0.1.0 build E:\BurgerBuilder\burger-builder
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  51.03 KB  build\static\js\1.e5d5c6e6.chunk.js
+  5.39 KB   build\static\js\main.34f07b83.chunk.js
+  2.76 KB   build\static\css\main.21722435.chunk.css
+  768 B     build\static\js\runtime~main.e4f707eb.js
+
+The project was built assuming it is hosted at /burger/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+To publish it at https://avadhutthorat.github.io/burger/, run:
+
+  npm run deploy
+
+Find out more about deployment here:
+
+  http://bit.ly/CRA-deploy
+
+
+> burger-builder@0.1.0 deploy E:\BurgerBuilder\burger-builder
+> gh-pages -d build
+
+Published
+
+E:\BurgerBuilder\burger-builder>
